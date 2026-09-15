@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\FrontendUI.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\FrontendUI.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\FrontendUIEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\FrontendUI">
+      <UniqueIdentifier>{CE960C38-5289-3852-9D0E-576533FFA73D}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\FrontendUI\FrontendDebugHelper.h">
+      <Filter>Source\FrontendUI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FrontendUI\FrontendGameplayTags.cpp">
+      <Filter>Source\FrontendUI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FrontendUI\FrontendGameplayTags.h">
+      <Filter>Source\FrontendUI</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\FrontendUI\FrontendUI.Build.cs">
+      <Filter>Source\FrontendUI</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\FrontendUI\FrontendUI.cpp">
+      <Filter>Source\FrontendUI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FrontendUI\FrontendUI.h">
+      <Filter>Source\FrontendUI</Filter>
+    </ClInclude>
+    <Filter Include="Source\FrontendUI\AsyncAction">
+      <UniqueIdentifier>{435D0AD1-BBA2-3394-BA1C-3FDDCB7DC8CF}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\FrontendUI\AsyncAction\AsyncAction_PushSoftWidget.cpp">
+      <Filter>Source\FrontendUI\AsyncAction</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FrontendUI\AsyncAction\AsyncAction_PushSoftWidget.h">
+      <Filter>Source\FrontendUI\AsyncAction</Filter>
+    </ClInclude>
+    <Filter Include="Source\FrontendUI\Controllers">
+      <UniqueIdentifier>{7A3A53F1-6107-3178-AD13-6BE4D608167B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\FrontendUI\Controllers\FrontendPlayerController.cpp">
+      <Filter>Source\FrontendUI\Controllers</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FrontendUI\Controllers\FrontendPlayerController.h">
+      <Filter>Source\FrontendUI\Controllers</Filter>
+    </ClInclude>
+    <Filter Include="Source\FrontendUI\FrontendSettings">
+      <UniqueIdentifier>{53B169E7-F12B-3864-909F-7EBC9ABD5549}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\FrontendUI\FrontendSettings\FrontendDeveloperSettings.cpp">
+      <Filter>Source\FrontendUI\FrontendSettings</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FrontendUI\FrontendSettings\FrontendDeveloperSettings.h">
+      <Filter>Source\FrontendUI\FrontendSettings</Filter>
+    </ClInclude>
+    <Filter Include="Source\FrontendUI\Subsystems">
+      <UniqueIdentifier>{EA5C0A76-A057-38F0-84FA-5C073AAE339E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\FrontendUI\Subsystems\FrontendUISubsystem.cpp">
+      <Filter>Source\FrontendUI\Subsystems</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FrontendUI\Subsystems\FrontendUISubsystem.h">
+      <Filter>Source\FrontendUI\Subsystems</Filter>
+    </ClInclude>
+    <Filter Include="Source\FrontendUI\Widgets">
+      <UniqueIdentifier>{236CA259-5F4B-3490-844D-53BB3A81D2F0}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\FrontendUI\Widgets\Widget_ActivatableBase.cpp">
+      <Filter>Source\FrontendUI\Widgets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FrontendUI\Widgets\Widget_ActivatableBase.h">
+      <Filter>Source\FrontendUI\Widgets</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FrontendUI\Widgets\Widget_PrimaryLayout.cpp">
+      <Filter>Source\FrontendUI\Widgets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FrontendUI\Widgets\Widget_PrimaryLayout.h">
+      <Filter>Source\FrontendUI\Widgets</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

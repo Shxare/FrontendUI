@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"E:\\UE_Project\\FrontendUI\\Source\\FrontendUI\\FrontendUI.Build.cs",
+		"E:\\UE_Project\\FrontendUI\\Source\\FrontendUI.Target.cs",
+		"E:\\UE_Project\\FrontendUI\\Source\\FrontendUIEditor.Target.cs"
+	],
+	"EngineVersion": "5.6.1"
+}
