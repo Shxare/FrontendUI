@@ -66,7 +66,9 @@ struct Z_Construct_UClass_UFrontendDeveloperSettings_Statics
 		{ "ModuleRelativePath", "FrontendSettings/FrontendDeveloperSettings.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FrontendWidgetMap_MetaData[] = {
+		{ "Categories", "Frontend.Widget" },
 		{ "Category", "Widget Reference" },
+		{ "ForceInlineRow", "" },
 		{ "ModuleRelativePath", "FrontendSettings/FrontendDeveloperSettings.h" },
 	};
 #endif // WITH_METADATA
@@ -126,10 +128,10 @@ UFrontendDeveloperSettings::~UFrontendDeveloperSettings() {}
 struct Z_CompiledInDeferFile_FID_UE_Project_FrontendUI_Source_FrontendUI_FrontendSettings_FrontendDeveloperSettings_h__Script_FrontendUI_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UFrontendDeveloperSettings, UFrontendDeveloperSettings::StaticClass, TEXT("UFrontendDeveloperSettings"), &Z_Registration_Info_UClass_UFrontendDeveloperSettings, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFrontendDeveloperSettings), 3409952383U) },
+		{ Z_Construct_UClass_UFrontendDeveloperSettings, UFrontendDeveloperSettings::StaticClass, TEXT("UFrontendDeveloperSettings"), &Z_Registration_Info_UClass_UFrontendDeveloperSettings, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFrontendDeveloperSettings), 825480305U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UE_Project_FrontendUI_Source_FrontendUI_FrontendSettings_FrontendDeveloperSettings_h__Script_FrontendUI_2329337766(TEXT("/Script/FrontendUI"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UE_Project_FrontendUI_Source_FrontendUI_FrontendSettings_FrontendDeveloperSettings_h__Script_FrontendUI_41176455(TEXT("/Script/FrontendUI"),
 	Z_CompiledInDeferFile_FID_UE_Project_FrontendUI_Source_FrontendUI_FrontendSettings_FrontendDeveloperSettings_h__Script_FrontendUI_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UE_Project_FrontendUI_Source_FrontendUI_FrontendSettings_FrontendDeveloperSettings_h__Script_FrontendUI_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

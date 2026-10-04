@@ -252,12 +252,18 @@
     <None Include="..\..\FrontendUI.uproject"/>
     <None Include="..\..\Source\FrontendUI.Target.cs"/>
     <None Include="..\..\Source\FrontendUIEditor.Target.cs"/>
+    <None Include="..\..\.gitattributes"/>
+    <None Include="..\..\.gitignore"/>
     <None Include="..\..\.vsconfig"/>
     <None Include="..\..\Config\DefaultEditor.ini"/>
     <None Include="..\..\Config\DefaultEngine.ini"/>
     <None Include="..\..\Config\DefaultGame.ini"/>
     <None Include="..\..\Config\DefaultInput.ini"/>
     <ClInclude Include="..\..\Source\FrontendUI\FrontendDebugHelper.h"/>
+    <ClCompile Include="..\..\Source\FrontendUI\FrontendFunctionLibrary.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FrontendUI\FrontendFunctionLibrary.h"/>
     <ClCompile Include="..\..\Source\FrontendUI\FrontendGameplayTags.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>

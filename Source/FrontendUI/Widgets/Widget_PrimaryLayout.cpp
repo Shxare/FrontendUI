@@ -19,7 +19,7 @@ void UWidget_PrimaryLayout::RegisterWidgetStack(UPARAM(meta = (Categories = "Fro
 		{
 			RegisteredWidgetStackMap.Add(InStackTag, Stack);
 			//¥Ú”°≤‚ ‘–≈œ¢
-			Debug::Print(TEXT("Widget Stack Registeren under the Tag") + InStackTag.ToString());
+			//Debug::Print(TEXT("Widget Stack Registeren under the Tag") + InStackTag.ToString());
 		}
 	}
 }

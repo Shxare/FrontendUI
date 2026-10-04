@@ -17,6 +17,6 @@ class FRONTENDUI_API UFrontendDeveloperSettings : public UDeveloperSettings
 	GENERATED_BODY()
 	
 public:
-	UPROPERTY(Config, EditAnywhere, Category ="Widget Reference", meta =(ForceInlineRow, Categories = ))
+	UPROPERTY(Config, EditAnywhere, Category ="Widget Reference", meta =(ForceInlineRow, Categories = "Frontend.Widget"))
 	TMap<FGameplayTag, TSoftClassPtr<UWidget_ActivatableBase>> FrontendWidgetMap;
 };

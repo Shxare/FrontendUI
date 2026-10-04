@@ -11,6 +11,8 @@
     <None Include="..\..\Source\FrontendUIEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
     <None Include="..\..\.vsconfig" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
@@ -31,6 +33,12 @@
       <UniqueIdentifier>{CE960C38-5289-3852-9D0E-576533FFA73D}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\FrontendUI\FrontendDebugHelper.h">
+      <Filter>Source\FrontendUI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FrontendUI\FrontendFunctionLibrary.cpp">
+      <Filter>Source\FrontendUI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FrontendUI\FrontendFunctionLibrary.h">
       <Filter>Source\FrontendUI</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\FrontendUI\FrontendGameplayTags.cpp">
